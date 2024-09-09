@@ -72,7 +72,7 @@ def yml_to_obj(arg=None):
 
 def read_yml():
     try:
-        O_CNFG = yml_to_obj()
+        O_CNFG = yml_to_obj("anand-sachith.yml")
         O_SETG = yml_to_obj("settings.yml")
     except Exception as e:
         print(e)
